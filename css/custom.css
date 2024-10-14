@@ -219,8 +219,8 @@ card-section:hover{
 /*whatsapp*/
 #whatsapp {
     position: fixed;
-    right: 34px;
-     left: 50px; 
+    right: 14px;
+     left: 20px; 
     top: 80%;
     width: 70px;
     height: 70px;
@@ -339,7 +339,7 @@ card-section:hover{
 /*Call me*/
 #callme {
     position: fixed;
-    right: 50px;
+    right: 20px;
     top: 80%;
     width: 70px;
     height: 70px;

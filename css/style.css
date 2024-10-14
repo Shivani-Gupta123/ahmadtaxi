@@ -1,4 +1,4 @@
- 
+	
 @import url("font-awesome.css");
 @import url("line-icons.css");
 @import url("animations.css");
@@ -1645,8 +1645,7 @@ body.boxed .body{
 .sticky-header .site-tagline{
 	display:none;
 }
-.sticky-header .site-logo{
-}
+
 .sticky-header .site-logo img{
 	max-height:66px;
 	-webkit-transition: max-height 0.1s linear 0s;
@@ -1915,6 +1914,14 @@ body.boxed .body{
 		border-radius:0;
 	}
 }
+
+@media (max-width:768px) {
+	.site-logo{
+		width: 120px;
+		margin-left: 110px;
+	}
+}
+
 @media (min-width: 992px) and (max-width: 1199px) {
 	body.boxed .navbar .search-form {
 		left: -10px;
